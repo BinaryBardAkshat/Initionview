@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="dummy_ae_c">false</drawable>
+    <drawable name="dummy_ae_d">false</drawable>
+    <drawable name="dummy_ae_12">false</drawable>
+    <drawable name="dummy_ae_13">false</drawable>
+    <drawable name="dummy_ae_18">false</drawable>
+    <drawable name="dummy_ae_38">false</drawable>
+    <drawable name="dummy_ae_3c">false</drawable>
+    <drawable name="dummy_ae_3d">false</drawable>
+    <drawable name="dummy_ae_3e">false</drawable>
+    <drawable name="dummy_ae_3f">false</drawable>
+    <drawable name="dummy_ae_40">false</drawable>
+    <drawable name="dummy_ae_44">false</drawable>
+    <drawable name="dummy_ae_4b">false</drawable>
+    <drawable name="dummy_ae_4d">false</drawable>
+    <drawable name="dummy_ae_4e">false</drawable>
+    <drawable name="dummy_ae_4f">false</drawable>
+    <drawable name="material_ic_keyboard_arrow_next_black_24dp">@drawable/material_ic_keyboard_arrow_right_black_24dp</drawable>
+    <drawable name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</drawable>
+    <drawable name="dummy_ae_a8">false</drawable>
+    <drawable name="dummy_ae_a9">false</drawable>
+    <drawable name="dummy_ae_aa">false</drawable>
+    <drawable name="dummy_ae_ab">false</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <drawable name="dummy_ae_b0">false</drawable>
+</resources>

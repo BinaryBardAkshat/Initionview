@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/grey" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="30dp" android:textStyle="bold" android:textColor="@color/darkgrey" android:id="@+id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Initionview" android:fontFamily="@font/alata" android:layout_marginStart="10dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+                <soup.neumorphism.NeumorphCardView android:id="@+id/neumorphCardView" android:layout_width="75dp" android:layout_height="75dp" android:layout_marginTop="10dp" android:layout_marginEnd="12dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" app:neumorph_backgroundColor="@color/grey">
+                    <soup.neumorphism.NeumorphImageView android:layout_gravity="center" android:layout_width="51dp" android:layout_height="45dp" android:src="@drawable/bsdround" app:neumorph_shapeType="0"/>
+                </soup.neumorphism.NeumorphCardView>
+                <TextView android:textSize="10sp" android:textColor="@color/darkgrey" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Step towards your dream job" android:fontFamily="@font/alata" app:layout_constraintStart_toStartOf="@+id/textView" app:layout_constraintTop_toBottomOf="@+id/textView"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.gridlayout.widget.GridLayout android:id="@+id/grd1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" app:columnCount="2" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:rowCount="2">
+                <soup.neumorphism.NeumorphCardView android:id="@+id/crd1" android:focusable="true" android:clickable="true" android:layout_width="130dp" android:layout_height="197dp" android:layout_margin="8dp" app:cardCornerRadius="8dp" app:cardElevation="8dp" app:layout_column="0" app:layout_columnWeight="1" app:layout_gravity="fill" app:layout_row="0" app:layout_rowWeight="1">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/tcs"/>
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="TCS" android:textAlignment="center"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+                <soup.neumorphism.NeumorphCardView android:id="@+id/crd2" android:clickable="true" android:layout_width="109dp" android:layout_height="197dp" android:layout_margin="8dp" app:cardCornerRadius="8dp" app:cardElevation="8dp" app:layout_column="1" app:layout_columnWeight="1" app:layout_gravity="fill" app:layout_row="0" app:layout_rowWeight="1">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/ibm"/>
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="IBM" android:textAlignment="center"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+                <soup.neumorphism.NeumorphCardView android:id="@+id/crd3" android:focusable="true" android:clickable="true" android:layout_width="100dp" android:layout_height="197dp" android:layout_margin="8dp" app:cardCornerRadius="8dp" app:cardElevation="8dp" app:layout_column="0" app:layout_columnWeight="1" app:layout_gravity="fill" app:layout_row="1" app:layout_rowWeight="1">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="111dp" android:layout_height="102dp" android:src="@drawable/deloitte"/>
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Deloitte" android:textAlignment="center"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+                <soup.neumorphism.NeumorphCardView android:id="@+id/crd4" android:focusable="true" android:clickable="true" android:layout_margin="8dp" app:cardCornerRadius="8dp" app:cardElevation="8dp" app:layout_column="1" app:layout_columnWeight="1" app:layout_gravity="fill" app:layout_row="1" app:layout_rowWeight="1">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/wipro"/>
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Wipro" android:textAlignment="center"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+            </androidx.gridlayout.widget.GridLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.gridlayout.widget.GridLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="16dp" app:columnCount="2" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:rowCount="2">
+                <soup.neumorphism.NeumorphCardView android:id="@+id/crd5" android:focusable="true" android:clickable="true" android:layout_width="130dp" android:layout_height="197dp" android:layout_margin="8dp" app:cardCornerRadius="8dp" app:cardElevation="8dp" app:layout_column="0" app:layout_columnWeight="1" app:layout_gravity="fill" app:layout_row="0" app:layout_rowWeight="1">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/accenture"/>
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Accenture" android:textAlignment="center"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+                <soup.neumorphism.NeumorphCardView android:id="@+id/crd6" android:clickable="true" android:layout_width="109dp" android:layout_height="197dp" android:layout_margin="8dp" app:cardCornerRadius="8dp" app:cardElevation="8dp" app:layout_column="1" app:layout_columnWeight="1" app:layout_gravity="fill" app:layout_row="0" app:layout_rowWeight="1">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/infosys"/>
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Infosys" android:textAlignment="center"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+                <soup.neumorphism.NeumorphCardView android:id="@+id/crd7" android:focusable="true" android:clickable="true" android:layout_width="100dp" android:layout_height="197dp" android:layout_margin="8dp" app:cardCornerRadius="8dp" app:cardElevation="8dp" app:layout_column="0" app:layout_columnWeight="1" app:layout_gravity="fill" app:layout_row="1" app:layout_rowWeight="1">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="111dp" android:layout_height="102dp" android:src="@drawable/cisco"/>
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Cisco" android:textAlignment="center"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+                <soup.neumorphism.NeumorphCardView android:id="@+id/crd8" android:focusable="true" android:clickable="true" android:layout_margin="8dp" app:cardCornerRadius="8dp" app:cardElevation="8dp" app:layout_column="1" app:layout_columnWeight="1" app:layout_gravity="fill" app:layout_row="1" app:layout_rowWeight="1">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/huawe"/>
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Huawei" android:textAlignment="center"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+            </androidx.gridlayout.widget.GridLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>
